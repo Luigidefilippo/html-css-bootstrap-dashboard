@@ -105,6 +105,13 @@ main{
     padding: 5px 10px;
     
 }
+#cards{
+    height: calc(100% -100px);
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+}
+.ms_img-size
 
 
 
