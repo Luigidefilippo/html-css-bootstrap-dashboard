@@ -111,7 +111,11 @@ main{
     background-color: white;
     padding: 10px 0;
 }
-.ms_img-size
+.ms_img-size{
+    height: 30px;
+    width: 30px;
+    margin: 0 5px;
+}
 
 
 
