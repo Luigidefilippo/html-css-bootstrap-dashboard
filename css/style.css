@@ -18,14 +18,23 @@ aside{
     left: 0;
 }
 
-
+main{
+    overflow: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: calc(100vh - 70px);
+    width: calc(100% - 140px);
+}
 /* BG COLORS */
 .bgc-sidebar{
     background-color: rgb(5,30,52);
     background-image: url(../img/sidebar-bg.png);
 }
 
-
+.bgc-topbar{
+    background-color: rgb(27,114,232);
+}
 /* sidebar contents */
 
 .sidebar_row{
@@ -64,6 +73,18 @@ aside{
 
 .search-bar i{
     padding-right: 15px;
+}
+/* MAIN */
+.ms_content{
+    width: 100%;
+}
+.ms_button-topbar{
+    font-size: .8rem;
+    color: white;
+    background-color:  rgb(22,91,186);
+    border: none;
+    border-radius: 40px;
+    padding: 2px 8px;
 }
 
 
