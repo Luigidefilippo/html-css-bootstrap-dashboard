@@ -43,6 +43,7 @@ main{
     justify-content: space-between;
     flex-direction: column;
 }
+
 /* header contents */
 .logo_sm{
     height: 3.2rem;
@@ -115,6 +116,11 @@ main{
     height: 30px;
     width: 30px;
     margin: 0 5px;
+}
+/* HOVER effects */
+
+.nav-item:hover{
+    background-color: gray;
 }
 
 
